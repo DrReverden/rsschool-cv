@@ -1,1 +1,1 @@
-# rsschool-cv
+https://DrReverden.github.io/rsschool-cv/cv
