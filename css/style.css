@@ -1,0 +1,23 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.header__inner {
+   background-color: #374258;
+   color: #c4c4c4;
+   text-align: center;
+   padding: 20px 0;
+}
+
+/*Section about
+=============================================*/
+
+.about__inner {
+   display: flex;
+}
