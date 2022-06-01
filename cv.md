@@ -10,3 +10,7 @@
    + lamafon@mail.ru
 * Discord account
    + @DrReverden
+
+### Profile 
+
+I am very interested in learning a new field of activity. I'm not afraid to take on difficult tasks. I dream of developing in a new profession and I want to improve my coding skills.
