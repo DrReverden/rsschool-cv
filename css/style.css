@@ -8,9 +8,9 @@
    margin: 0 auto;
 }
 
-.header__inner {
-   background-color: #374258;
-   color: #c4c4c4;
+.header {
+   background-color: #373234;
+   color: #f3ece4;
    text-align: center;
    padding: 20px 0;
 }
