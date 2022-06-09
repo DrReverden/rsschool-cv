@@ -46,7 +46,7 @@
                   </div>
                   <!-- contacts -->
                   <div class="left__col-section">
-                     <h3 class="left__col-title">Education</h3>
+                     <h3 class="left__col-title">Courses</h3>
                      <ul class="left__col-list">
                         <li class="left__col-item">Web Design School by Nickita Bruskov</li>
                         <li class="left__col-item">Web Design School "WayUp"</li>
@@ -54,7 +54,7 @@
                         <li class="left__col-item">Stepick Course, Web development for beginners</li>
                      </ul>
                   </div>
-                  <!-- education -->
+                  <!-- courses -->
                   <div class="left__col-section">
                      <h3 class="left__col-title">Skills</h3>
                      <ul class="left__col-list">
@@ -70,7 +70,61 @@
                   </div>
                </div>
                <div class="right__col">
+                  <div class="right__col-section">
+                     <h3 class="right__col-title">Profile</h3>
+                     <p class="right__col-tex">
+                        Interested in exploring a new sphere of activity. I have another job, but I want to change my
+                        profession. I'm not afraid to take on difficult tasks. I
+                        dream of developing in a new profession and I want to improve my coding skills, learn
+                        JavaScript.
+                     </p>
+                  </div>
+                  <!--profile-->
+                  <div class="right__col-section">
+                     <h3 class="right__col-title">Education</h3>
+                     <p class="right__col-text">
+                        I know the basics of web design. I know how to work in Figma and Photoshop. I know the basics of
+                        HTML, CSS, Python. I work in such programs as BC Code, Sublime Text. I am currently learning
+                        Javascript.
+                     </p>
+                  </div>
+                  <!-- education -->
+                  <div class="right__col-section">
+                     <h3 class="right__col-title">Code</h3>
+                     <p class="right__col-text">
+                        Task from Stepick Course: The input to the program is a number n, and then n lines containing
+                        integers in ascending order. The program merges lists of numbers into one sorted list.
+                     </p>
+                     <pre class="right__col-code">
 
+            def quick_merge(list1, list2):
+            result = []
+
+            p1 = 0
+            p2 = 0
+            while p1 < len(list) and p2 < len(list2):
+               if list1[p1] <= list2[p2]:
+                  result.append(list1[p1])
+                  p1 += 1
+               else:
+                  result.append(list2[p2])
+                  p2 += 2
+            if p1 < len(list1):
+               result += list1[p1:]
+            if p2 < len(list2):
+               result += list2[p2:] 
+            return result
+
+         total_list = []
+
+         for i in range(int(input())):
+            num = [int(q) for q in input().split()]
+            total_list = quick+merge(total_list, num)
+         print(*total_list)
+
+
+                     </pre>
+                  </div>
                </div>
             </div>
          </div>

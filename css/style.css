@@ -30,7 +30,6 @@ li {
 .container {
    max-width: 1200px;
    margin: 0 auto;
-   padding: 0 5px;
 }
 
 .header {
@@ -47,6 +46,12 @@ li {
    display: flex;
 }
 
+.left__col {
+   width: 30%;
+   background-color: #fcf9f6;
+   border-right: 2px solid #e8dccc;
+}
+
 .left__col-photo {
    display: block;
    margin: 0 auto;
@@ -56,20 +61,29 @@ li {
    border-radius: 50%;
 }
 
-.left__col-title {
+.left__col-title,
+.right__col-title {
    text-transform: uppercase;
    padding-left: 5px;
    margin: 20px 0;
-   background-color: #f3ece4;
+   background-color: #e8dccc;
 }
 
 .left__col-item {
    margin-bottom: 10px;
+   padding-left: 5px;
 }
 
 /*Right col
 =================================================*/
+.right__col {
+   width: 70%;
+   background-color: #fcf9f6;
+}
 
+.right__col-title:first-child {
+   margin-top: 0;
+}
 
 /*Footer
 ==================================================*/
