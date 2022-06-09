@@ -64,14 +64,19 @@ li {
 .left__col-title,
 .right__col-title {
    text-transform: uppercase;
-   padding-left: 5px;
+   padding: 5px 5px;
    margin: 20px 0;
    background-color: #e8dccc;
 }
 
 .left__col-item {
    margin-bottom: 10px;
-   padding-left: 5px;
+   padding-left: 24px;
+}
+
+.fab {
+   font-size: 18px;
+   margin-right: 7px;
 }
 
 /*Right col
@@ -81,8 +86,18 @@ li {
    background-color: #fcf9f6;
 }
 
+.right__col-text {
+   margin-bottom: 20px;
+   padding-left: 5px;
+}
+
 .right__col-title:first-child {
    margin-top: 0;
+}
+
+.right__col-code {
+   background-color: #fff;
+   margin: 0 20px;
 }
 
 /*Footer
@@ -92,5 +107,5 @@ li {
 }
 
 .footer__info {
-   color: #f3ece4;
+   color: #ffffff;
 }
