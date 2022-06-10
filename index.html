@@ -16,34 +16,34 @@
       <div class="container">
          <div class="header__inner">
             <h1 class="header__title">Sinichkina Anna Alexandrovna</h1>
-            <h3 class="header__subtitle">Junior Frontend Developer</h3>
+            <h2 class="header__subtitle">Junior Frontend Developer</h2>
          </div>
       </div>
    </header>
 
    <main class="main">
-      <section class="about">
+      <div class="about">
          <div class="container">
             <div class="about__inner">
                <div class="left__col">
                   <img src="assets/img/photo.jpg" alt="my photo" class="left__col-photo">
-                  <div class="left__col-section">
+                  <nav class="left__col-section">
                      <h3 class="left__col-title">Contacts</h3>
                      <ul class="left__col-list">
-                        <li class="left__col-item">
+                        <li class="left__col-contact">
                            <i class="fab fa-solid fa-phone"></i>
                            <a href="tel:+79150558880">8 (915) 055-88-80</a>
                         </li>
-                        <li class="left__col-item">
+                        <li class="left__col-contact">
                            <i class="fab fa-solid fa-at"></i>
                            <a href="mailto:lamafon@mail.ru">lamafon@mail.ru</a>
                         </li>
-                        <li class="left__col-item">
+                        <li class="left__col-contact">
                            <i class="fab fa-brands fa-discord"></i>
-                           <a href="#">DrReverden</a>
+                           DrReverden
                         </li>
                      </ul>
-                  </div>
+                  </nav>
                   <!-- contacts -->
                   <div class="left__col-section">
                      <h3 class="left__col-title">Courses</h3>
@@ -102,16 +102,16 @@
 
             p1 = 0
             p2 = 0
-            while p1 < len(list) and p2 < len(list2):
-               if list1[p1] <= list2[p2]:
+            while p1 &lt; len(list) and p2 &lt; len(list2):
+               if list1[p1] &lt;= list2[p2]:
                   result.append(list1[p1])
                   p1 += 1
                else:
                   result.append(list2[p2])
                   p2 += 2
-            if p1 < len(list1):
+            if p1 &lt; len(list1):
                result += list1[p1:]
-            if p2 < len(list2):
+            if p2 &lt; len(list2):
                result += list2[p2:] 
             return result
 
@@ -121,14 +121,22 @@
                num = [int(q) for q in input().split()]
                total_list = quick+merge(total_list, num)
             print(*total_list)
-
-
                      </pre>
+                     <p class="right__col-text">
+                        <a href="https://github.com/DrReverden/rsschool-cv.git">Work with Mardown from task (link)</a>
+                     </p>
+                     <!--code-->
+                     <div class="right__col-section">
+                        <h3 class="right__col-title">English</h3>
+                        <p class="right__col-text">
+                           B1-Pre-Intermediate
+                        </p>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </section>
+      </div>
    </main>
 
    <footer class="footer">
@@ -138,9 +146,11 @@
                <div class="footer__link">
                   <a href="https://github.com/DrReverden" class="footer__link-git">DrReverden</a>
                </div>
-               <div class="footer__data">2022</div>
+               <div class="footer__data">&copy; 2022</div>
             </div>
-            <img src="" alt="" class="rs__logo">
+            <a href="https://rs.school/js/">
+               <img src="assets/svg/rs_school_js.svg" alt="" class="rs__logo">
+            </a>
          </div>
       </div>
    </footer>
