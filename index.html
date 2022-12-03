@@ -1,159 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script src="https://kit.fontawesome.com/73f0f144f7.js" crossorigin="anonymous"></script>
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="css/style.css">
-   <title>Curriculum Vitae Sinichkina Anna</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Anna Sinichkina</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-   <header class="header">
-      <div class="container">
-         <div class="header__inner">
-            <h1 class="header__title">Sinichkina Anna Alexandrovna</h1>
-            <h2 class="header__subtitle">Junior Frontend Developer</h2>
-         </div>
-      </div>
-   </header>
-
-   <main class="main">
-      <div class="about">
-         <div class="container">
-            <div class="about__inner">
-               <div class="left__col">
-                  <img src="assets/img/photo.jpg" alt="my photo" class="left__col-photo">
-                  <nav class="left__col-section">
-                     <h3 class="left__col-title">Contacts</h3>
-                     <ul class="left__col-list">
-                        <li class="left__col-contact">
-                           <i class="fab fa-solid fa-phone"></i>
-                           <a href="tel:+79150558880">8 (915) 055-88-80</a>
-                        </li>
-                        <li class="left__col-contact">
-                           <i class="fab fa-solid fa-at"></i>
-                           <a href="mailto:lamafon@mail.ru">lamafon@mail.ru</a>
-                        </li>
-                        <li class="left__col-contact">
-                           <i class="fab fa-brands fa-discord"></i>
-                           DrReverden
-                        </li>
-                     </ul>
-                  </nav>
-                  <!-- contacts -->
-                  <div class="left__col-section">
-                     <h3 class="left__col-title">Courses</h3>
-                     <ul class="left__col-list">
-                        <li class="left__col-item">Web Design School by Nickita Bruskov</li>
-                        <li class="left__col-item">Web Design School "WayUp"</li>
-                        <li class="left__col-item">Stepick Course, Python for beginners by JetBrains School</li>
-                        <li class="left__col-item">Stepick Course, Web development for beginners</li>
-                     </ul>
-                  </div>
-                  <!-- courses -->
-                  <div class="left__col-section">
-                     <h3 class="left__col-title">Skills</h3>
-                     <ul class="left__col-list">
-                        <li class="left__col-item">HTML</li>
-                        <li class="left__col-item">CSS</li>
-                        <li class="left__col-item">FIGMA</li>
-                        <li class="left__col-item">WordPress</li>
-                        <li class="left__col-item">Adobe Photoshop</li>
-                        <li class="left__col-item">Adobe Illustrator</li>
-                        <li class="left__col-item">Python</li>
-                        <li class="left__col-item">GIT</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="right__col">
-                  <div class="right__col-section">
-                     <h3 class="right__col-title">Profile</h3>
-                     <p class="right__col-text">
-                        Interested in exploring a new sphere of activity. I have another job, but I want to change my
-                        profession. I'm not afraid to take on difficult tasks. I
-                        dream of developing in a new profession and I want to improve my coding skills, learn
-                        JavaScript.
-                     </p>
-                  </div>
-                  <!--profile-->
-                  <div class="right__col-section">
-                     <h3 class="right__col-title">Education</h3>
-                     <p class="right__col-text">
-                        I know the basics of web design. I know how to work in Figma and Photoshop. I know the basics of
-                        HTML, CSS, Python. I work in such programs as BC Code, Sublime Text. I am currently learning
-                        Javascript.
-                     </p>
-                  </div>
-                  <!-- education -->
-                  <div class="right__col-section">
-                     <h3 class="right__col-title">Code</h3>
-                     <p class="right__col-text">
-                        Task from Stepick Course: The input to the program is a number n, and then n lines containing
-                        integers in ascending order. The program merges lists of numbers into one sorted list.
-                     </p>
-                     <pre class="right__col-code">
-
-            def quick_merge(list1, list2):
-            result = []
-
-            p1 = 0
-            p2 = 0
-            while p1 &lt; len(list) and p2 &lt; len(list2):
-               if list1[p1] &lt;= list2[p2]:
-                  result.append(list1[p1])
-                  p1 += 1
-               else:
-                  result.append(list2[p2])
-                  p2 += 2
-            if p1 &lt; len(list1):
-               result += list1[p1:]
-            if p2 &lt; len(list2):
-               result += list2[p2:] 
-            return result
-
-            total_list = []
-
-            for i in range(int(input())):
-               num = [int(q) for q in input().split()]
-               total_list = quick+merge(total_list, num)
-            print(*total_list)
-                     </pre>
-                     <p class="right__col-text">
-                        <a href="https://github.com/DrReverden/rsschool-cv.git">Work with Mardown from task (link)</a>
-                     </p>
-                     <!--code-->
-                     <div class="right__col-section">
-                        <h3 class="right__col-title">English</h3>
-                        <p class="right__col-text">
-                           B1-Pre-Intermediate
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="navigation">
+                    <div class="nav__inner">
+                        <a class="logo__link" href="https://github.com/DrReverden">
+                            <div class="logo">DrReverden</div>
+                        </a>
+                        <ul class="nav__menu">
+                            <li class="nav__item">
+                                <a href="#about__me" class="nav__link">About me</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#education" class="nav__link">Education</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#skills" class="nav__link">Skills</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#portfolio" class="nav__link">Portfolio</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contacts" class="nav__link">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="header__content">
+                <div class="header__about">
+                    <h1 class="header__title title">Anna Sinichkina</h1>
+                    <p class="header__text">Junior Frontend Developer</p>
+                </div>
+                <img class="header__photo" src="assets/photo.jpg" alt="Anna Sinichkina">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="about" id="about__me">
+            <div class="container">
+                <div class="about__inner">
+                    <h2 class="about__title title">About me</h2>
+                    <p class="about__text">
+                        Hi! My name is Anna, and I'm new to this, but enthusiastic. Interested in exploring a new sphere of activity. I'm not afraid to take on difficult tasks. I dream of developing in a new profession and I want to improve my coding skills.
+                    </p>
+                    <p class="about__text">
+                        Coding world-class web and mobile products is something that Maxine eats, sleeps, and dreams about. She is an expert at combining usability with visual design to create perfect user friendly websites. As a true professional she has no trouble using the most modern, up-to-date technologies to develop software solutions for her clients.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="education" id="education">
+            <div class="container">
+                <h2 class="education__title title">Education</h2>
+                <div class="education__inner">
+                    <!--сделать плитку с изображениями, возможно на гридах. Изображение, сверху  наложен фиолетовый, при наведении - фиолетовый. Или в два столбца - фото и текст - название + дата-->
+                    <div class="education__item">
+                        <img class="education__img" src="assets/education/wdw.jpg" alt="web-design way">
+                        <p class="education__text"><span>2018</span>
+                            Web-design school, courses by Nickita Bruskov
                         </p>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                    <div class="education__item">
+                        <img class="education__img" src="assets/education/wu.jpg" alt="wayup">
+                        <p class="education__text"><span>2019</span>
+                            Web-design school, courses by Andrew Gavrilov
+                        </p>
+                    </div>
+                    <div class="education__item">
+                        <img class="education__img" src="assets/education/jb.jpg" alt="jetbrains">
+                        <p class="education__text"><span>2021</span>
+                            Stepick course, Python for beginners
+                        </p>
+                    </div>
+                    <div class="education__item">
+                        <img class="education__img" src="assets/education/rs.jpg" alt="rolling scopes">
+                        <p class="education__text"><span>2022</span>
+                            Online-school, Stage #0
+                        </p>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   </main>
+        </div>
+        <div class="skills" id="skills">
+            <div class="container">
+                <h2 class="skills__title title">Skills</h2>
+                <div class="skills__inner">
+                    <div class="skills__item">
+                        <img src="assets/icons/git.svg" alt="git">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">Git</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/icons/github.svg" alt="github">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">GitHub</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/icons/js.svg" alt="java script">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">Java Script</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/icons/html.svg" alt="html">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">HTML5</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/icons/css.svg" alt="css">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">CSS3</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/icons/sass.svg" alt="photoshop">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">SCSS & Sass</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/icons/ps.svg" alt="photoshop">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">Photoshop</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/icons/ai2.svg" alt="photoshop">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">Illustrator</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="skills__item">
+                        <img src="assets/icons/figma.svg" alt="photoshop">
+                        <div class="skills__item-content">
+                            <p class="skills__item-title">Figma</p>
+                        <div class="dots">
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                            <span class="dot__item dot__item-not-active"></span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__block-language">
+                    <h3>Languages:</h3>
+                    <p>Russian (native), English (B1, intermediate)</p>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title title">Portfolio</h2>
+                <p class="portfolio__desc">
+                    During three months of studying at school, I consolidated my knowledge of CSS and HTML, learned the basics of JS and created two projects based on this knowledge. I also learned how to use Git and GitHub.
+                </p>
+                <p class="portfolio__desc">
+                    Here you can see my projects:
+                </p>
+                <div class="portfolio__inner">
+                    <div class="portfolio__item">
+                        <a href="https://travel-silk-gamma.vercel.app/" target="_blank">
+                            <img src="assets/portfolio/travel.png" alt="travel">
+                        </a>
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="assets/portfolio/momentum.png" alt="Momentum">
+                        <!--ссылки на проект нет, так как не уверена, что ее можно было сюда вставить. Это было задание с прошлого потока, и если в этот раз будет такое же - то это было бы некорректно*-->
+                    </div>
+                </div>
+                <p class="portfolio__desc">
+                    And here you can see code sample from Momentum project:
+                </p>
+                <div class="portfolio__code-wrapper">
+                    <pre class="portfolio__code-sample">
+                const weatherIcon = document.querySelector('.weather-icon');
+                const temperature = document.querySelector('.temperature');
+                const weatherDescription = document.querySelector('.weather-description');
 
-   <footer class="footer">
-      <div class="container">
-         <div class="footer__inner">
-            <div class="footer__info">
-               <div class="footer__link">
-                  <a href="https://github.com/DrReverden" class="footer__link-git">DrReverden</a>
-               </div>
-               <div class="footer__data">&copy; 2022</div>
+                const city = document.querySelector('.city')
+                city.value = 'Minsk'
+
+                async function getWeather() {
+                    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}
+                                &lang=en&appid=b092a93c0c7f1ecc2871630764007998&units=metric`;
+
+                    const res = await fetch(url);
+                    const data = await res.json();
+                    console.log(data.weather[0].id, data.weather[0].description, data.main.temp);
+
+                    weatherIcon.className = 'weather-icon owf';
+                    weatherIcon.classList.add(`owf-${data.weather[0].id}`);
+                    temperature.textContent = `${Math.floor(data.main.temp)}°C`;
+                    weatherDescription.textContent = data.weather[0].description;
+                }
+                    </pre>
+                </div>
             </div>
-            <a href="https://rs.school/js/">
-               <img src="assets/svg/rs_school_js.svg" alt="" class="rs__logo">
-            </a>
-         </div>
-      </div>
-   </footer>
+        </div>
+        <footer class="footer" id="contacts">
+            <div class="footer__inner">
+                <div class="container">
+                    <h2 class="contacts__title title">Contacts</h2>
+                    <p class="contacts__desc">If I can be of assistance and if you have any questions feel free to contact me</p>
+                    <ul class="contacts__list">
+                        <li class="contancts__item">
+                            <a href="https://github.com/DrReverden" class="contacts__link">
+                                <img class="contacts__image" src="assets/contacts/github.svg" alt="github" width="50">
+                            </a>
+                        </li>
+                        <li class="contancts__item">
+                            <a href="https://twitter.com/" class="contacts__link">
+                                <img class="contacts__image" src="assets/contacts/twitter.svg" alt="twitter" width="50">
+                            </a>
+                        </li>
+                        <li class="contancts__item">
+                            <a href="https://vk.com/" class="contacts__link">
+                                <img class="contacts__image" src="assets/contacts/vk.svg" alt="vk" width="50">
+                            </a>
+                        </li>
+                        <li class="contancts__item">
+                            <a href="mailto:lamafon@mail.ru" class="contacts__link">
+                                <img class="contacts__image" src="assets/contacts/mail.svg" alt="mail" width="50">
+                            </a>
+                        </li>
+                        <li class="contancts__item">
+                            <a href="tel:+79150558881" class="contacts__link">
+                                <img class="contacts__image" src="assets/contacts/phone.svg" alt="phone" width="50">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="contacts__wrapper">
+                        <a class="contacts__link-rs" href="https://rs.school/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 552.85 198.67"><title>rs_school</title><g data-name="Layer 2"><g data-name="Layer 1"><path d="M275.36 61.37l26.29-1.65q.86 6.41 3.48 9.76 4.28 5.43 12.2 5.43 5.91 0 9.12-2.77a8.34 8.34 0 0 0 3.2-6.44 8.18 8.18 0 0 0-3-6.22q-3-2.74-14.15-5.19-18.18-4.08-25.93-10.86a21.84 21.84 0 0 1-7.81-17.26 23.44 23.44 0 0 1 4-13 26.47 26.47 0 0 1 12-9.64q8-3.51 22-3.51 17.14 0 26.14 6.38t10.71 20.28l-26.05 1.52q-1-6-4.36-8.78t-9.2-2.77c-3.21 0-5.63.69-7.25 2.05a6.25 6.25 0 0 0-2.44 5 5 5 0 0 0 2 3.84q1.95 1.77 9.27 3.3 18.12 3.9 26 7.9t11.4 9.91a25.12 25.12 0 0 1 3.57 13.24 28.37 28.37 0 0 1-4.75 15.86 29.83 29.83 0 0 1-13.3 11q-8.55 3.75-21.54 3.75-22.81 0-31.6-8.78t-10-22.35zM6.27 91V1.53h46.06q12.81 0 19.58 2.19a20.93 20.93 0 0 1 10.92 8.14A24.75 24.75 0 0 1 87 26.35a24.8 24.8 0 0 1-3.2 12.84A24.91 24.91 0 0 1 75.07 48a33.63 33.63 0 0 1-9.7 3.54 27.79 27.79 0 0 1 7.19 3.29A27.79 27.79 0 0 1 77 59.49 35.16 35.16 0 0 1 80.85 65l13.38 26H63L48.24 63.63q-2.81-5.31-5-6.9a11.63 11.63 0 0 0-6.78-2.07H34V91zM34 37.76h11.68A41 41 0 0 0 53 36.54a7.3 7.3 0 0 0 4.48-2.81 8.24 8.24 0 0 0 1.74-5.18 8.23 8.23 0 0 0-2.75-6.65q-2.74-2.32-10.31-2.32H34zM0 167.56l26.29-1.64q.86 6.41 3.48 9.76Q34 181.11 42 181.11q5.91 0 9.12-2.78a8.34 8.34 0 0 0 3.2-6.44 8.2 8.2 0 0 0-3-6.22q-3-2.74-14.15-5.18-18.18-4.1-25.93-10.86a21.87 21.87 0 0 1-7.81-17.27 23.49 23.49 0 0 1 4-13 26.47 26.47 0 0 1 12-9.64q8-3.51 22-3.51 17.14 0 26.14 6.38t10.71 20.28l-26 1.53q-1-6-4.36-8.79t-9.19-2.74q-4.81 0-7.25 2a6.25 6.25 0 0 0-2.44 5 5 5 0 0 0 2 3.85q1.95 1.77 9.27 3.29 18.12 3.9 26 7.9t11.4 9.91a25.15 25.15 0 0 1 3.57 13.24 28.35 28.35 0 0 1-4.75 15.86 29.83 29.83 0 0 1-13.3 11q-8.55 3.75-21.54 3.75-22.81 0-31.6-8.78T0 167.56zm163-7.01l24.22 7.32a44.72 44.72 0 0 1-7.69 17 33.46 33.46 0 0 1-13 10.31q-7.78 3.47-19.8 3.47-14.58 0-23.82-4.23t-16-14.91q-6.72-10.67-6.71-27.31 0-22.18 11.8-34.11t33.4-11.92q16.91 0 26.57 6.84t14.36 21l-24.4 5.43a21 21 0 0 0-2.68-6 16 16 0 0 0-5.67-4.88 16.31 16.31 0 0 0-7.51-1.71q-9.39 0-14.39 7.56-3.8 5.61-3.79 17.61 0 14.86 4.52 20.38t12.69 5.51q7.92 0 12-4.45t5.9-12.91zm45.51-52.83h27.63V139h30.2v-31.28h27.75v89.43h-27.75V161h-30.2v36.18h-27.63zm102.78 44.77q0-21.88 12.2-34.1t34-12.2q22.32 0 34.4 12T404 151.76q0 15.69-5.28 25.72a37.54 37.54 0 0 1-15.25 15.61q-10 5.58-24.86 5.58-15.12 0-25-4.82a37.59 37.59 0 0 1-16.07-15.25q-6.26-10.42-6.25-26.11zm27.63.13q0 13.55 5 19.46t13.7 5.91q8.91 0 13.79-5.79t4.88-20.8q0-12.63-5.1-18.46t-13.82-5.82A16.78 16.78 0 0 0 344 133q-5.07 6-5.08 19.62z"/><path d="M392.28 152.49q0-21.88 12.2-34.1t34-12.2q22.34 0 34.41 12t12.07 33.58q0 15.69-5.27 25.72a37.6 37.6 0 0 1-15.25 15.61q-10 5.58-24.86 5.58-15.13 0-25-4.82a37.67 37.67 0 0 1-16.08-15.25q-6.22-10.43-6.22-26.12zm27.64.13q0 13.55 5 19.46t13.72 5.92q8.91 0 13.79-5.79t4.88-20.8q0-12.63-5.09-18.46t-13.82-5.82A16.77 16.77 0 0 0 425 133q-5.09 6-5.08 19.62z"/><path d="M482.08 107.72h27.64v67.41h43.13v22h-70.77z"/></g></g></svg>
+                        </a>
+                        <p>&#169; 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
-
 </html>
